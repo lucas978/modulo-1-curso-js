@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>js03_funcao.htm - Somatoria com entrada de dados por formulario</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset="utf-8"/>
+</head>
+
+<body>
+
+
+<h3>Somatoria de dois numeros inteiros</h3>
+
+<!-- Definicao da area e dos elemtnso de um formulario-->
+   <form action="" method="post" name="meuform">
+    Entre com o valor 1 <input type="text" name="f1"><p></p>
+    Entre com o valor 2 <input type="text" name="f2"><p></p>
+        <button onclick="somar()" value="clique">Clique aqui</button>
+        <button type="reset">Apagar</button>
+   </form>
+
+<!--Final da area de um formulario -->
+
+
+<!--Definicao da linguagem javascript -->
+<script language="javascript">
+
+/*Objetivo: Desenvolver um programa em javascript que faca leitura de 2 numeros inteiros 
+	aplique a conversao de valores com parseint e apresente o resultado da soma entre eles
+	entrada de dados por fomulario
+
+*/
+
+
+
+
+<!--Definicao da funcao soma() para capturar dados, processar a somatoria e apresentar o resultado-->
+function somar(){
+
+	<!--Definicao das variaveis-->
+	var number1 = parseInt(document.meuform.f1.value);
+    var number2 = parseInt(document.meuform.f2.value);
+
+	<!--Entrada de dados-->
+
+	<!--processamento de dados-->
+	
+	
+	<!--Saida de dados-->
+	document.write('O valor da soma é: ' + number1 + number2);
+	
+	
+}
+
+</script>
+
+</body>
+</html>
+
+
